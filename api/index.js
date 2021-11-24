@@ -14,7 +14,7 @@ bot.onText(/\/start/, (msg) => {
     global_msg_id = msg.chat.id;
     bot.sendMessage(
         global_msg_id,
-        `Assalamualaikum bang ${msg.chat.first_name}, welcome...\n
+        `Assalamualaikum bang ${msg.chat.first_name}, Selamat Datang\n
         click /show_url`
     );
 });
